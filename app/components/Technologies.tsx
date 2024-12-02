@@ -1,4 +1,5 @@
 import React from 'react';
+import basePath from '../../next.config'
 
 const Technologies = () => {
     const technologies = [
@@ -6,41 +7,41 @@ const Technologies = () => {
             id: 1,
             category: "Frontend",
             items: [
-                { name: "HTML", path: '/html.svg.png' },
-                { name: "CSS", path: '/css.svg' },
-                { name: "Tailwind CSS", path: '/tailwindcss.png' },
-                { name: "JavaScript", path: '/js.png' },
-                { name: "TypeScript", path: '/ts.png' },
-                { name: "React", path: '/react.png' },
-                { name: "Next.js", path: '/nextjs.png' },
+                { name: "HTML", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120879/html.svg_wie0gi.png' },
+                { name: "CSS", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120694/css_qkf9yh.svg' },
+                { name: "Tailwind CSS", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733121175/tailwindcss_p8o280.png' },
+                { name: "JavaScript", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120909/js_ylsphf.png' },
+                { name: "TypeScript", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733121202/ts_inwyrl.png' },
+                { name: "React", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733121108/react_gvbjdr.png' },
+                { name: "Next.js", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733121061/nextjs_e4jejj.png' },
             ]
         },
         {
             id: 2,
             category: "Backend & Database Management",
             items: [
-                { name: "Golang", path: '/go.png' },
-                { name: "Amqp", path: '/amqp.png' },
-                { name: "Express.js", path: '/Expressjs.svg' },
-                { name: "gRPC", path: '/grpc.png' },
-                { name: "MongoDB", path: '/mongo.webp' },
-                { name: "MySQL", path: '/mysql.png' },
-                { name: "PostgreSQL", path: '/postgres.jpg' },
-                { name: "Redis", path: '/redis.png' },
+                { name: "Golang", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120825/go_oblyj6.png' },
+                { name: "Amqp", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120647/amqp_ivpzdg.png' },
+                { name: "Express.js", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120770/Expressjs_cbrepo.svg' },
+                { name: "gRPC", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120854/grpc_kvbd0f.png' },
+                { name: "MongoDB", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120986/mongo_scpa9e.webp' },
+                { name: "MySQL", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733121017/mysql_yw2jqy.png' },
+                { name: "PostgreSQL", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733121084/postgres_zkj1po.jpg' },
+                { name: "Redis", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733121136/redis_gtqcyv.png' },
             ]
         },
         {
             id: 3,
             category: "Blockchain, Cloud Technologies & DevOps",
             items: [
-                { name: "Wagmi", path: '/wagmi.png' },
-                { name: "Ethers.js", path: '/ethers.png' },
-                { name: "MetaMask", path: '/metamask.jpeg' },
-                { name: "Git", path: '/git.png' },
-                { name: "Github Action", path: '/action.png' },
-                { name: "AWS", path: '/aws.png' },
-                { name: "Docker", path: '/docker.png' },
-                { name: "Kubernetes", path: '/k8s.png' }
+                { name: "Wagmi", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733121238/wagmi_bwqi6a.png' },
+                { name: "Ethers.js", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120743/ethers_khzkfa.png' },
+                { name: "MetaMask", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120959/metamask_ebqqip.jpg' },
+                { name: "Git", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120800/git_mfthja.png' },
+                { name: "Github Action", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120608/action_wqfb7b.png' },
+                { name: "AWS", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120672/aws_td1ldu.png' },
+                { name: "Docker", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120716/docker_obcvln.png' },
+                { name: "Kubernetes", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120934/k8s_jyadiv.png' }
             ]
         },
     ];
