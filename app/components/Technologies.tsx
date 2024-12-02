@@ -1,5 +1,4 @@
 import React from 'react';
-import basePath from '../../next.config'
 
 const Technologies = () => {
     const technologies = [
