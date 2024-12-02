@@ -30,7 +30,7 @@ const Socials = () => {
                     Download Resume <BsFillPersonLinesFill size={30} color='black' />
                 </>
             ),
-            href: '/portfolio/public/resume.pdf',
+            href: '/public/resume.pdf',
             style: 'rounded-br-md',
             download: true,
         },
