@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import config from '../../next.config';
 
 const Socials = () => {
     const links = [
@@ -30,7 +31,7 @@ const Socials = () => {
                     Download Resume <BsFillPersonLinesFill size={30} color='black' />
                 </>
             ),
-            href: '/resume.pdf',
+            href: `${config.basePath}/resume.pdf`,
             style: 'rounded-br-md',
             download: true,
         },
