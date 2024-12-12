@@ -38,6 +38,11 @@ const About = () => {
           environment.
         </p>
 
+        
+        <p className="text-lg text-gray-500">
+        In addition to my expertise with scalable and high-performance applications, I have also worked with real-time technologies, including WebSockets, to build applications that require low-latency, full-duplex communication. This has been particularly useful in building chat systems, live dashboards, and real-time notifications. I&apso;ve integrated WebSockets with microservices for seamless communication between frontend and backend, optimizing for minimal delay and maximum throughput.
+        </p>
+
         <br />
 
         <p className="text-lg text-gray-500">
