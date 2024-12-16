@@ -33,9 +33,6 @@ const About = () => {
           scalability. I take pride in containerizing applications using Docker,
           and I am well-versed in CI/CD practices, having set up pipelines using
           GitHub Actions to automate the deployment of containers to AWS ECR.
-          Additionally, I have experience with AWS Elastic Kubernetes Service
-          (EKS) for orchestrating containers in a highly available and scalable
-          environment.
         </p>
 
         <br />
