@@ -33,13 +33,13 @@ const Hero = () => {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <img
             src="https://res.cloudinary.com/ds1ll9kkv/image/upload/v1727345527/IMG_0075_nhto7v.jpg"
             alt="george"
             className="rounded-2xl mx-auto w2/3 md:w-96"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

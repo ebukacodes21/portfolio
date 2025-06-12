@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaTwitter } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import config from '../../next.config';
 
@@ -9,10 +9,10 @@ const Socials = () => {
             id: 1,
             child: (
                 <>
-                    LinkedIn <FaLinkedin size={30} color='black' />
+                    Twitter <FaTwitter size={30} color='black' />
                 </>
             ),
-            href: 'https://www.linkedin.com/in/george-okafor-1b5006189/',
+            href: 'https://x.com/x_thecommission',
             style: 'rounded-r-md',
         },
         {

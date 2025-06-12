@@ -11,120 +11,179 @@ const Experience = () => {
         <div className="max-w-screen-lg mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">Experience</h2>
           <p className="text-gray-400 mb-12">
-            Discover my journey through the tech realm:
+            Crafting scalable systems, leading projects, and building solutions that power real-world impact:
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            {/* Event Ticketing App */}
             <div className="bg-gray-800 rounded-lg overflow-hidden">
               <div className="px-6 py-8">
-                <h3 className="text-xl md:text-2xl font-semibold mb-4 text-gray-200">
-                  Peerbill
+                <h3 className="text-xl md:text-2xl font-semibold mb-2 text-gray-200">
+                  Event Ticketing Platform
                 </h3>
-                <p className="text-gray-400 mb-2">
-                  Fullstack Developer - Contract
-                </p>
-                <p className="text-gray-400 mb-2">Contract Ongoing</p>
+                <p className="text-gray-400 mb-1">Technical Lead & Backend Engineer (Nodejs)</p>
+                {/* <p className="text-gray-400 mb-2">2023 – Present</p> */}
+                <a
+                  href="https://github.com/Tekkdose-Ltd/3ventiz-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline text-sm"
+                >
+                  🔗 View on GitHub
+                </a>
               </div>
               <div className="px-6 py-4 bg-gray-700">
                 <p className="text-gray-400 mb-2">
-                  1. Enabled users to pay for utility bills directly through
-                  their connected crypto wallet addresses, integrating seamless
-                  blockchain payment functionality.
+                  1. Designed and built the backend for an event management system, supporting both admin and mobile users.
                 </p>
                 <p className="text-gray-400 mb-2">
-                  2. Allowed users to purchase airtime and data bundles using
-                  their connected wallet addresses, providing a convenient way
-                  to pay with crypto.
+                  2. Integrated Stripe for seamless ticket payments.
                 </p>
                 <p className="text-gray-400 mb-2">
-                  3. Facilitated user onboarding for traders by creating a
-                  registration flow, enabling them to sign up on Peerbill&apos;s
-                  platform.
-                </p>
-                <p className="text-gray-400 mb-2">
-                  4. Developed a crypto/fiat trade matching system that connects
-                  users to available traders for seamless peer-to-peer (P2P)
-                  transactions.
-                </p>
-                <p className="text-gray-400 mb-2">
-                  5. Deployed the application to AWS Elastic Container Registry
-                  (ECR) for efficient container management and automated the
-                  CI/CD pipeline for smooth updates.
-                </p>
-                <p className="text-gray-400 mb-2">
-                  6. Utilized AWS Elastic Kubernetes Service (EKS) for container
-                  orchestration, ensuring high availability and scalability of
-                  the application across multiple environments.
+                  3. Leveraged AWS Lambda with SQS/SNS to power a serverless, scalable architecture.
                 </p>
               </div>
             </div>
 
+            {/* Loan App */}
             <div className="bg-gray-800 rounded-lg overflow-hidden">
               <div className="px-6 py-8">
-                <h3 className="text-xl md:text-2xl font-semibold mb-4 text-gray-200">
+                <h3 className="text-xl md:text-2xl font-semibold mb-2 text-gray-200">
+                  Loan Management System
+                </h3>
+                <p className="text-gray-400 mb-1">Backend Developer (Nodejs)</p>
+                {/* <p className="text-gray-400 mb-2">2022 – 2023</p> */}
+                <a
+                  href="https://github.com/ebukacodes21/gaat-server"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline text-sm"
+                >
+                  🔗 View on GitHub
+                </a>
+              </div>
+              <div className="px-6 py-4 bg-gray-700">
+                <p className="text-gray-400 mb-2">
+                  1. Built a monolithic Node.js backend to manage loan processing, payment tracking, and user management.
+                </p>
+                <p className="text-gray-400 mb-2">
+                  2. Implemented secure file uploads, email notifications, and hosted the service on Namecheap.
+                </p>
+              </div>
+            </div>
+
+            {/* Restaurant App */}
+            <div className="bg-gray-800 rounded-lg overflow-hidden">
+              <div className="px-6 py-8">
+                <h3 className="text-xl md:text-2xl font-semibold mb-2 text-gray-200">
+                  Restaurant Ordering Platform
+                </h3>
+                <p className="text-gray-400 mb-1">Backend Developer (Go)</p>
+                {/* <p className="text-gray-400 mb-2">2023</p> */}
+                <a
+                  href="https://github.com/ebukacodes21/menu-deck"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline text-sm"
+                >
+                  🔗 View on GitHub
+                </a>
+              </div>
+              <div className="px-6 py-4 bg-gray-700">
+                <p className="text-gray-400 mb-2">
+                  1. Built a backend in Golang enabling restaurant registration, profile management, and customer ordering.
+                </p>
+                <p className="text-gray-400 mb-2">
+                  2. Used AWS Lambda and SQS/SNS for event-driven architecture and scalability.
+                </p>
+              </div>
+            </div>
+
+            {/* Peerbill */}
+            <div className="bg-gray-800 rounded-lg overflow-hidden">
+              <div className="px-6 py-8">
+                <h3 className="text-xl md:text-2xl font-semibold mb-2 text-gray-200">
+                  Blockchain – P2P Crypto Exchange
+                </h3>
+                <p className="text-gray-400 mb-1">Fullstack Developer (Golang/GRPC/NextJS)</p>
+                {/* <p className="text-gray-400 mb-2">Ongoing</p> */}
+                <a
+                  href="https://github.com/ebukacodes21/peerbill-trader-api"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline text-sm"
+                >
+                  🔗 View on GitHub
+                </a>
+              </div>
+              <div className="px-6 py-4 bg-gray-700">
+                <p className="text-gray-400 mb-2">
+                  1. Developed P2P crypto trading platform using Golang and gRPC with crypto/fiat matching logic.
+                </p>
+                <p className="text-gray-400 mb-2">
+                  2. Enabled stablecoin-based utility bill payments, airtime/data top-ups via crypto wallets.
+                </p>
+                <p className="text-gray-400 mb-2">
+                  3. Deployed services on AWS EC2 with CI/CD for scalable delivery.
+                </p>
+              </div>
+            </div>
+
+            {/* Blockchain Engineer */}
+            {/* <div className="bg-gray-800 rounded-lg overflow-hidden">
+              <div className="px-6 py-8">
+                <h3 className="text-xl md:text-2xl font-semibold mb-2 text-gray-200">
                   Hackpiy Blockchain Solutions
                 </h3>
-                <p className="text-gray-400 mb-2">
-                    Blockchain Integration Engineer
-                </p>
-                <p className="text-gray-400 mb-2">October 2022 - July 2023</p>
+                <p className="text-gray-400 mb-1">Blockchain Integration Engineer</p>
+                <p className="text-gray-400 mb-2">Oct 2022 – Jul 2023</p>
+                <a
+                  href="https://github.com/yourusername/hackpiy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline text-sm"
+                >
+                  🔗 View on GitHub
+                </a>
               </div>
               <div className="px-6 py-4 bg-gray-700">
                 <p className="text-gray-400 mb-2">
-                  1. Built and maintained multiple servers using Node.js and
-                  Golang, ensuring robust, scalable backend solutions to meet
-                  business requirements.
+                  1. Developed blockchain-integrated services in Go and Node.js to power decentralized apps.
                 </p>
                 <p className="text-gray-400 mb-2">
-                  2. Contributed to frontend development by integrating
-                  blockchain-based functionalities, enhancing user experience
-                  with seamless interaction between the frontend and backend.
-                </p>
-                <p className="text-gray-400 mb-2">
-                  3. Wrote comprehensive technical documentation for various
-                  subjects, including blockchain fundamentals, Node.js, and
-                  Golang, making complex topics accessible for developers and
-                  non-technical stakeholders alike.
-                </p>
-                <p className="text-gray-400 mb-2">
-                  4. Documented best practices and architectural patterns for
-                  blockchain development, guiding myself and other software
-                  developers to build secure and efficient decentralized
-                  applications.
+                  2. Authored internal docs on blockchain fundamentals, architecture patterns, and tooling.
                 </p>
               </div>
-            </div>
+            </div> */}
 
-            <div className="bg-gray-800 rounded-lg overflow-hidden">
+            {/* Instructor Role */}
+            {/* <div className="bg-gray-800 rounded-lg overflow-hidden">
               <div className="px-6 py-8">
-                <h3 className="text-xl md:text-2xl font-semibold mb-4 text-gray-200">
+                <h3 className="text-xl md:text-2xl font-semibold mb-2 text-gray-200">
                   Applied Technologies
                 </h3>
-                <p className="text-gray-400 mb-2">
-                  Instructor for JavaScript/TypeScript
-                </p>
-                <p className="text-gray-400 mb-2">April 2021 - August 2021</p>
+                <p className="text-gray-400 mb-1">JavaScript/TypeScript Instructor</p>
+                <p className="text-gray-400 mb-2">Apr 2021 – Aug 2021</p>
+                <a
+                  href="https://github.com/yourusername/js-typescript-course"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline text-sm"
+                >
+                  🔗 View on GitHub
+                </a>
               </div>
               <div className="px-6 py-4 bg-gray-700">
                 <p className="text-gray-400 mb-2">
-                  1. Taught students the fundamentals of Node.js, covering
-                  topics such as setting up development environments, working
-                  with modules, and building RESTful APIs, which laid the
-                  foundation for my career in full-stack development.
+                  1. Delivered hands-on lessons in Node.js, REST APIs, and TypeScript fundamentals to early-stage devs.
                 </p>
                 <p className="text-gray-400 mb-2">
-                  2. Introduced students to TypeScript, teaching them the power
-                  of strong typing and how to integrate it with JavaScript
-                  projects, helping them build more maintainable and scalable
-                  applications.
-                </p>
-                <p className="text-gray-400 mb-2">
-                  3. Fostered a passion for programming in students, delivering
-                  practical examples and guiding them in developing hands-on
-                  projects that aligned with real-world development practices.
+                  2. Mentored students through real-world projects and development best practices.
                 </p>
               </div>
-            </div>
+            </div> */}
+
           </div>
         </div>
       </div>

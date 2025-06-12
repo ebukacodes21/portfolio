@@ -31,7 +31,7 @@ const Technologies = () => {
         },
         {
             id: 3,
-            category: "Blockchain, Cloud Technologies & DevOps",
+            category: "Blockchain & Cloud",
             items: [
                 { name: "Wagmi", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733121238/wagmi_bwqi6a.png' },
                 { name: "Ethers.js", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120743/ethers_khzkfa.png' },
@@ -40,7 +40,7 @@ const Technologies = () => {
                 { name: "Github Action", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120608/action_wqfb7b.png' },
                 { name: "AWS", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120672/aws_td1ldu.png' },
                 { name: "Docker", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120716/docker_obcvln.png' },
-                { name: "Kubernetes", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1733120934/k8s_jyadiv.png' }
+                { name: "Azure", path: 'https://res.cloudinary.com/ds1ll9kkv/image/upload/v1749745383/azure_aokrts.png' }
             ]
         },
     ];
